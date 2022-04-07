@@ -1,0 +1,138 @@
+body{
+    background-color:whitesmoke;
+}
+
+.flex-container {
+    display: flex;
+    background-color:whitesmoke;
+    height: 50%;
+    width: 70%;
+    flex-direction: column;
+    border: 2px solid;
+    align-content:center; 
+    margin-left: 30px;
+    border-radius:5px;
+    /* align-content:space-around; */
+    
+
+    
+  }
+  .flex-container > div {
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid;
+    align-items: center;
+
+
+  }
+  #needhelp{
+      color:blue;
+      text-decoration: none;
+
+  }
+#pass-text {
+    color:black
+}
+
+#forgetpassword{
+    color:blue;
+    text-decoration: none;
+}
+
+  .input{
+      height:15px;
+      border-radius: 5px;
+  }
+
+    img{
+      height: 31px;
+      width:130px; 
+      display: block;
+      margin-left: 250px; 
+      padding:50px;
+    }
+  
+  .createaccount > div{
+    background-color: #cdcaca;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid;
+    text-align: center;
+    padding-top:1px;
+    height:2px;
+    margin-left: 30px;
+    width:66%;
+    height:10px;
+    border-radius: 5px;
+  }
+
+#signin{
+    margin-left:50px;
+}
+  
+#continue{
+    background-color:rgb(241, 192, 100);
+    height: 15px; 
+    margin-top:20px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    padding-top: 2px;
+
+
+}
+
+#needhelp{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top:25px;
+}
+
+#forgetpassword{
+    margin-left: 508px;
+    margin-bottom: 10px;
+    
+}
+
+#pass-text{
+    margin-left: 50px
+}
+
+footer nav{
+    margin-top:30px;
+    margin-left:150px;
+    padding: 10px;
+    display: inline-block;
+}
+footer a{
+    padding: 15px;
+    text-decoration: none;
+    color:rgb(25, 140, 206)
+}
+
+footer div{
+    margin-left:160px;
+}
+
+
+
+h2.background {
+    width: 70%; 
+    text-align: center; 
+    border-bottom: 1px solid rgb(67, 65, 65); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left:30px;
+    color:rgb(87, 82, 82);
+    font-size:20px;
+ } 
+ 
+ h2 span { 
+     background:whitesmoke;
+     padding:0 10px;
+}
